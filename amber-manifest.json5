@@ -1,0 +1,18 @@
+{
+    // Amber Manifest — Agent metadata for reproducible assessments
+    // See: https://github.com/RDI-Foundation/amber
+    name: "chembench-purple-agent",
+    version: "0.1.0",
+    description: "Purple Agent optimized for error detection, diagnosis, and recovery — AgentBeats Sprint 2 Research Agent track",
+    
+    // Agent configuration
+    agent: {
+        entrypoint: "src/server.py",
+        port: 9009,
+        environment: {
+            LLM_MODEL: "${LLM_MODEL:-openai/gpt-4-turbo}",
+            LLM_TEMPERATURE: "${LLM_TEMPERATURE:-0.3}",
+            LLM_MAX_TOKENS: "${LLM_MAX_TOKENS:-4096}",
+        }
+    }
+}
