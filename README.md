@@ -1,6 +1,6 @@
 # ChemML Purple Agent
 
-A competition-grade ML engineering agent for [AgentBeats](https://agentbeats.dev) — Sprint 2, Research Agent track (MLE-Bench).
+A ML engineering agent for [AgentBeats](https://agentbeats.dev) — Sprint 2, Research Agent track (MLE-Bench).
 
 ## What This Agent Does
 
